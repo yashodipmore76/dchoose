@@ -1,3 +1,28 @@
+Project structure:
+.
+├── LICENSE-APACHE
+├── LICENSE-MIT
+├── README.md
+├── cli.js
+├── codebase_files.txt
+├── index.js
+├── jest.config.js
+├── package-lock.json
+├── package.json
+├── project_context.txt
+├── src
+│   ├── cli.ts
+│   ├── index.ts
+│   ├── params.ts
+│   └── select.ts
+├── test
+│   ├── main.test.ts
+│   ├── params.test.ts
+│   └── select.test.ts
+└── tsconfig.json
+
+3 directories, 18 files
+Package.json content:
 {
   "name": "dchoose",
   "description": "a CLI tool for choosing items from lists using drand",
